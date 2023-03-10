@@ -1,0 +1,7 @@
+{
+    "extends": "@nibfe/rome-react-fabric/lib/tsconfig.json",
+    "compilerOptions": {
+      "jsx": "react",
+      "baseUrl": ".",
+    },
+}  

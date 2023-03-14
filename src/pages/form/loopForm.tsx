@@ -19,8 +19,8 @@ const MyForm:React.FC = () => {
     const [ruleForm, setRuleForm] = useState([getDefaultForm(new Date().getTime())])
     let formRef:{[key:string]: any} = {}
     const rules = {
-        name: [{required: true, message: '名称必填', trigger: ['change', 'blur']}],
-        extraInfo: [{required: true, message: '备注必填', trigger: ['change', 'blur']}],
+        name: [{required: true, message: '名称必填'}],
+        extraInfo: [{required: true, message: '备注必填'}],
     }
 
     function getDefaultExtra(baseKey:number) {

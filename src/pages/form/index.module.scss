@@ -1,0 +1,37 @@
+.add_form2_class,.add_form_class {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.all_content, .form2_content, .form1_content {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: left;
+    position: relative;
+}
+.all_content {
+    text-align: end;
+}
+.delete_class_form2 {
+    position: absolute;
+    right: 10px;
+    margin-bottom: 10px;
+    z-index: 10;
+}
+.content_style {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.button_group {
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+.final_button {
+    padding:10px 0;
+    width:100%;
+    text-align: center;
+}
